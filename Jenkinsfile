@@ -126,7 +126,7 @@ pipeline {
                 expression { env.RUN_MODE == "cd" }
             }
             steps {
-                withCredentials([string(credentialsId: 'github-token', variable: 'GITHUB_TOKEN')]) {
+                withCredentials([string(credentialsId: 'github-tokens', variable: 'GITHUB_TOKEN')]) {
                     sh '''
                     rm -rf k8s-manifest
 
