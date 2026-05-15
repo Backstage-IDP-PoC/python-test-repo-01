@@ -38,7 +38,7 @@ def home():
 
         <body>
             <div class="container">
-                <h1>Hello GSPANN From DSSP Portal</h1>
+                <h1>Hello! Welcome to AI-Powered DevOps Self Service Portal!</h1>
                 <p>Pipeline Test Successful</p>
             </div>
         </body>
